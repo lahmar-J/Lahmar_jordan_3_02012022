@@ -1,0 +1,54 @@
+/*----- restaurants title ------*/
+.groupe_resto_acc
+{
+  
+    background-color: #f3f3f3;
+    height: 1125px;
+    padding-top: 35px ;
+
+    .h1_resto_acc {
+        font-size: 22px;
+        font-weight: 900;
+        margin: 0 0 20px 15px;
+    }
+    
+    /*----- la palette du goût ------*/
+    .card_resto {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 2px solid #e7e7e7;
+        box-shadow: 2px 2px 4px gray;
+        border-radius: 15px;
+        width: 270px;
+        height: 235px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        background-color: #ffffff;
+    }
+
+    .img_restaurant {
+        display: flex;
+        flex: 1;
+        background-size: cover ;
+        width: 268px;
+        height: 128px;
+        border-radius: 15px 15px 0px 0px;
+        
+    }
+    
+    h4 a{
+        font-size: 17px;
+        margin: 10px 0px 5px 10px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .texte_card_1 {
+        font-size: 15px;
+        text-align: left;
+        margin: 0px 0px 12px 10px;
+    }
+}

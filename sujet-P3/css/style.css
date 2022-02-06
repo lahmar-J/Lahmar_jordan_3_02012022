@@ -1,0 +1,235 @@
+@charset "UTF-8";
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+/*----- main ------*/
+main {
+  margin: 0px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  /*par exemple*/
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+/*----- logo ------*/
+.logo {
+  text-align: center;
+  width: 156px;
+  height: 33px;
+  margin: 20px 0px 8px 172px;
+}
+
+/*----- header ------*/
+.header_color {
+  background-color: #e9e9e9;
+  margin-bottom: 20px;
+  height: 420px;
+}
+
+.sous_titre {
+  text-align: center;
+  font-size: 1.5em;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.lieu {
+  background-color: #e2e2e2;
+  height: 50px;
+  border-top: solid 2px #c5c5c5;
+}
+
+/*----- Bouton ------*/
+.bouton {
+  text-align: center;
+}
+
+.btn {
+  background-color: #e76cd3;
+  color: white;
+  padding: 8px;
+  box-shadow: 1px 1px 4px #9b9b9b;
+}
+
+/*-----bouton 2-------*/
+.bouton2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #fc52fc;
+  color: white;
+  border: solid 1px #f320d0;
+  border-radius: 25px;
+  box-shadow: 2px 3px 8px black;
+  width: 160px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bouton2:hover {
+  cursor: pointer;
+}
+
+.Position_btn2 {
+  display: flex;
+  justify-content: center;
+}
+
+/*----- fonctionnement nav------*/
+.Fonctionnement {
+  display: flex;
+  justify-content: left;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.fonctionnement_nav_1 {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #050505;
+  border: solid 1px #f7f5f5;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #c9c9c9;
+  width: 370px;
+  height: 70px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fonctionnement_nav_2 {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #050505;
+  border: solid 1px #f7f5f5;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #c9c9c9;
+  width: 370px;
+  height: 70px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fonctionnement_nav_3 {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #050505;
+  border: solid 1px #f7f5f5;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #c9c9c9;
+  width: 370px;
+  height: 70px;
+  padding-left: 100px;
+  padding-right: 10px;
+}
+
+.fonction_logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px 20px;
+  border: 2px solid #ac3fa6;
+  width: 21px;
+  height: 20px;
+  background-color: #8704a1;
+  color: white;
+  font-size: 18px;
+  margin-right: 55px;
+}
+
+.fonctionnement_nav {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0px 115px 35px;
+}
+
+/*-------- fonctionnement logo ------*/
+.svg-inline--fa fa-mobile-alt fa-w-10 {
+  width: 15px;
+  height: 20px;
+}
+
+/*----- restaurants title ------*/
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+/*----- la palette du goût ------*/
+.card_resto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid #e7e7e7;
+  box-shadow: 2px 2px 4px gray;
+  border-radius: 15px;
+  width: 425px;
+  height: 327px;
+  margin-bottom: 20px;
+}
+
+.img_restaurant {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+  width: 427px;
+  height: 245px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+h4 {
+  font-size: 25px;
+  margin: 10px 0px 5px 10px;
+}
+
+.texte_card_1 {
+  font-size: 20px;
+  text-align: left;
+  margin: 0px 0px 25px 10px;
+}
+
+/*----- la note enchantée ------*/
+/*----- à la française ------*/
+/*----- Le délice des sens  ------*/
+/*----- footer------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: dimgray;
+}
+
+.logo_f {
+  margin: 15px 0px 15px 10px;
+  width: 90px;
+  height: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+header{
+    .logo{
+        width: 138px;
+        height: 23px;
+        margin: 20px 0 10px 90px;
+        text-align: center;
+    }
+    .header_color{
+        background-color: $primary ;
+        margin-bottom: 20px;
+        height: 280px;
+
+        .sous_titre{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 17px;
+            color: rgb(128, 128, 128);
+            margin: 0 -12px 30px 0;
+        }
+        .boite_lieu{
+            
+            background-color: rgb(223, 223, 223);
+            height: 30px;
+            border-top: solid 2px rgb(197, 197, 197);
+        }
+        .lieu{
+            display: flex;
+            justify-content: center;
+        }
+        .title_header
+        {
+            font-size: 20px;
+            text-align: center;
+            margin: 20px 69px 10px 60px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+/*----- Bouton ------*/
+.bouton {
+    text-align: center;
+  }
+    //first btn
+  .btn {
+    background-color: #e76cd3;
+    color: white;
+    padding: 8px;
+    box-shadow: 1px 1px 4px #9b9b9b;
+  }
+  
+  /*-----bouton 2-------*/
+  .bouton2 {
+    text-shadow: 1px 1px 1px rgb(39, 39, 39);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: $secondary;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 2px 3px 8px black;
+    width: 160px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .bouton2:hover {
+    cursor: pointer;
+  }
+  
+  .Position_btn2 {
+    display: flex;
+    justify-content: center;
+  }
+  

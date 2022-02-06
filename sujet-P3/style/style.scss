@@ -1,0 +1,12 @@
+//base
+@import "./base/general";
+@import "./base/variables";
+
+//Layout
+@import "./layout/header";
+@import "./layout/footer";
+
+//composants
+@import "./composants/btn";
+@import "./composants/fonctionnement";
+@import "./composants/_card_resto_acc";
