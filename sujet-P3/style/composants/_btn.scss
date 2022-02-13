@@ -25,12 +25,11 @@
     height: 40px;
     padding-left: 10px;
     padding-right: 10px;
-  }
-  
-  .bouton2:hover {
-    cursor: pointer;
-  }
-  
+
+      &:hover {
+        cursor: pointer;
+      }
+  }  
   .Position_btn2 {
     display: flex;
     justify-content: center;

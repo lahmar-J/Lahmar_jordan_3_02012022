@@ -33,7 +33,7 @@ header .header_color .boite_lieu {
   height: 30px;
   border-top: solid 2px #c5c5c5;
 }
-header .header_color .lieu {
+header .header_color .boite_lieu .lieu {
   display: flex;
   justify-content: center;
 }
